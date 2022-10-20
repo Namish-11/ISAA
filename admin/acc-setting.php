@@ -3,7 +3,7 @@
     include('../includes/dbconn.php');
     include('../includes/check-login.php');
     check_login();
-
+// hi i am 
     if(isset($_POST['changepwd'])){
     $op=$_POST['oldpassword'];
     $np=$_POST['newpassword'];
